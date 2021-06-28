@@ -1,0 +1,14 @@
+---
+title: "Diamondsfile2"
+author: "Madeleine Augostini"
+date: "6/27/2021"
+output: word_document
+---
+
+```{r}
+library(tidyverse)
+library(dplyr)
+diamonds%>%
+ select(price, color, x)
+```
+
